@@ -31,4 +31,5 @@ li {
     margin: 12px;
     list-style: circle;
     font-size: 18px;
+    list-style-position: inside;
 }
