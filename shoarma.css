@@ -1,0 +1,65 @@
+/*color pallete*/
+/*#F6F0D7*/
+/*#C5D89D*/
+/*#9CAB84*/
+/*#89986D*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F6F0D7;
+    font-family: Arial, Helvetica, sans-serif, serif;
+}
+
+.title {
+    text-align: center;
+    background-color: #C5D89D;
+    padding: 24px;
+    border-bottom: 2px solid #89986D;
+}
+
+.title h1 {
+    font-size: 36px;
+}
+
+.description {
+    text-align: center;
+    border-bottom: 2px dashed #89986D;
+    padding: 24px;
+    margin: 0 24px;
+}
+
+#image {
+    display: block;
+    margin: auto;
+    border: 5px solid #89986D;
+    border-radius: 12px;
+}
+
+.instructions {
+    text-align: center;
+    padding: 24px;
+}
+
+.steps {
+    list-style-position: inside;
+}
+
+ol > li::marker {
+    font-weight: bold;
+}
+
+ol > li{
+    border-bottom: 2px #89986D;
+    border-bottom-style: dotted;
+    margin: 0 30%;
+    padding: 5px;
+}
+
+.ingredients {
+    padding: 12px;
+    list-style-position: inside;
+}
