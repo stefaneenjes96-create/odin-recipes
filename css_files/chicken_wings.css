@@ -55,8 +55,9 @@ ol > li::marker {
 ol > li{
     border-bottom: 2px #89986D;
     border-bottom-style: dotted;
-    margin: 0 30%;
-    padding: 5px;
+    margin: 0 auto;
+    padding: 15px;
+    width: fit-content;
 }
 
 .ingredients {
